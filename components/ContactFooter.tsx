@@ -27,13 +27,13 @@ export default function ContactFooter() {
 
         <AnimatedSection delay={0.1}>
           <div className="flex flex-col sm:flex-row items-start gap-6 mb-16">
-            {/* PLACEHOLDER_EMAIL — replace with actual email before production */}
+            {/* edwardfarrel79@gmail.com — replace with actual email before production */}
             <a
-              href="mailto:PLACEHOLDER_EMAIL"
+              href="mailto:edwardfarrel79@gmail.com"
               className="flex items-center gap-3 text-text-secondary hover:text-accent-gold transition-colors duration-300 group"
             >
               <Mail size={20} />
-              <span className="text-sm tracking-wide">PLACEHOLDER_EMAIL</span>
+              <span className="text-sm tracking-wide">edwardfarrel79@gmail.com</span>
             </a>
             <a
               href="https://github.com/Nvoinxv"
