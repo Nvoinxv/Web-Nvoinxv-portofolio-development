@@ -30,14 +30,14 @@ export default function ContactFooter() {
 
             <AnimatedSection delay={0.1}>
               <div className="space-y-5">
-                {/* PLACEHOLDER_EMAIL — replace with actual email before production */}
+                {/* edwardfarrel79@gmail.com — replace with actual email before production */}
                 <a
-                  href="mailto:PLACEHOLDER_EMAIL"
+                  href="mailto:edwardfarrel79@gmail.com"
                   className="flex items-center gap-3 text-text-secondary hover:text-accent-gold transition-colors duration-300"
                 >
                   <Mail size={18} />
                   <span className="text-sm tracking-wide">
-                    PLACEHOLDER_EMAIL
+                    edwardfarrel79@gmail.com
                   </span>
                 </a>
                 <a
